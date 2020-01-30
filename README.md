@@ -26,9 +26,14 @@ tftp hosy lan1
 python -m pip install tftpy
 ```
 
-## 使い方
+## rtFirmUp.pyの使い方
+```bash
+rtFirmUp.py 192.168.100.1 ./rtx830.bin exec
+```
+
+## tftpyの使用例
 - シンプルな使い方
-    - [rtFirmUp.py](https://github.com/HayatoDoi/rtFirmUp.py/blob/master/rtFirmUp.py) 参照
+    - [example/simple](https://github.com/HayatoDoi/rtFirmUp.py/tree/master/example/simple) 参照
 - シングルスレッドで一括ファームアップを行う
     - ネットワークに負荷をかけたくない時に有効
     - アップデート台数が多い時、実行時間が長くなるため注意が必要
