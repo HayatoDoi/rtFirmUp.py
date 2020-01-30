@@ -32,8 +32,8 @@ python -m pip install tftpy
 - シングルスレッドで一括ファームアップを行う
     - ネットワークに負荷をかけたくない時に有効
     - アップデート台数が多い時、実行時間が長くなるため注意が必要
-    - [example/mass_update](https://github.com/HayatoDoi/rtFirmUp.py/blob/master/example/mass_update) 参照
+    - [example/mass_update](https://github.com/HayatoDoi/rtFirmUp.py/tree/master/example/mass_update) 参照
 - マルチスレッドで一括ファームアップを行う
     - 高速にファームアップを行いたい時に有効
     - ネットワークに負荷がかかるため注意が必要
-    - [example/mass_update_parallel](https://github.com/HayatoDoi/rtFirmUp.py/blob/master/mass_update_parallel) 参照
+    - [example/mass_update_parallel](https://github.com/HayatoDoi/rtFirmUp.py/tree/master/example/mass_update_parallel) 参照
